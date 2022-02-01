@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+let person = {
+	first_name:'tanmay',
+	last_name: 'modi',
+
+
+	getFunction : function(){
+		return "The name of the person is :- " +
+		person.first_name + person.last_name ;
+	},
+
+	phone_number : {
+		mobile:'887649675',
+		landline:'842377762786'
+	}
+}
+document.write(person.getFunction()+"<br>");    
+
+document.write(person.phone_number.mobile);
+
+    </script>
+</body>
+</html>
